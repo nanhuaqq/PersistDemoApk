@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_serializable"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="serializable"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+    <TextView
+        android:id="@+id/tv_deserial"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="deserialize"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_externalizable"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="externalizable"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_deexternalizable"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="externalizable"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_parcelable"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="parcelable"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="16dp"
+        />
+    <TextView
+        android:id="@+id/tv_deparcelable"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="deparcelable"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="4dp"
+        />
+
+</LinearLayout>
